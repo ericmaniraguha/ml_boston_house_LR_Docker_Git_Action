@@ -119,6 +119,9 @@ JSON Request Body:
 }`
 ```
 
+`Running my app.py inside vs code`
+![alt text](image-1.png)
+`Running the model in Postman application`
 ![alt text](image.png)
 
 #### Additional Information:
