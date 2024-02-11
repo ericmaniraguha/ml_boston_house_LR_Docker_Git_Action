@@ -1,27 +1,13 @@
 
-# Boston Housing Dataset Analysis
+## Boston Housing Dataset Analysis - Machine Learning - Linear Regression - Docker - Github Action
 
 This project aims to analyze the Boston Housing Dataset using machine learning techniques for regression analysis.
+
+## Part I
 
 ## Overview
 
 The Boston Housing Dataset is a widely used dataset in machine learning for regression analysis. It contains information collected by the U.S Census Service concerning housing in the area of Boston, Massachusetts. The dataset includes various features such as per capita crime rate, average number of rooms per dwelling, and median value of owner-occupied homes. The target variable is the median value of owner-occupied homes in $1000's.
-
-## Requirements
-
-To run the code in this project, you need the following dependencies:
-
-- Python 3.x
-- scikit-learn
-- pandas
-- matplotlib
-- seaborn
-
-You can install these dependencies using pip:
-
-```bash
-pip install scikit-learn pandas matplotlib seaborn
-```
 
 ## Data Loading and Preprocessing
 
@@ -49,6 +35,7 @@ pip install scikit-learn pandas matplotlib seaborn
 ## Results
 
 The trained Linear Regression model achieves the following performance metrics on the test set:
+
 - Mean Absolute Error (MAE): X
 - Mean Squared Error (MSE): Y
 - Root Mean Squared Error (RMSE): Z
@@ -61,3 +48,46 @@ The analysis of the Boston Housing Dataset provides insights into the factors af
 
 - [UCI Machine Learning Repository: Boston Housing Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 - [scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
+
+## Part II
+
+## Requirements
+
+To run the code in this project, you need the following dependencies:
+
+- Python 3.x
+- scikit-learn
+- pandas
+- matplotlib
+- seaborn
+
+You can install these dependencies using pip:
+
+```bash
+pip install scikit-learn pandas matplotlib seaborn
+```
+
+## Tools Overview
+
+1. **GitHub:**
+
+   - Web-based platform for version control using Git.
+   - Hosting for software development and collaboration.
+   - Features include pull requests, issue tracking, and project management tools.
+
+2. **Heroku:**
+
+   - Cloud platform as a service (PaaS) for building, deploying, and managing applications.
+   - Supports multiple programming languages and frameworks.
+   - Provides automatic scaling, continuous integration, and add-ons for various services.
+
+3. **Git CLI:**
+   - Command-line tool for interacting with Git repositories.
+   - Performs version control operations such as cloning, adding files, committing changes, and managing branches.
+   - Widely used for efficient management of Git repositories from the command line.
+
+## Create a new environment
+
+```
+conda create -n venv python=3.7 -ycon
+```
