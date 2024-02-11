@@ -33,7 +33,7 @@ def predict_api():
     return jsonify(output[0])
 
 # Route for making predictions via form submission
-@app.route('/predict_api', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
     # Get the input data from the form
     data = [float(x) for x in request.form.values()]

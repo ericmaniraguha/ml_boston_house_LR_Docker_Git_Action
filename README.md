@@ -49,7 +49,7 @@ The analysis of the Boston Housing Dataset provides insights into the factors af
 - [UCI Machine Learning Repository: Boston Housing Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 - [scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 
-## Part II
+## Part II Create API
 
 ## Requirements
 
@@ -131,3 +131,14 @@ JSON Request Body:
 
 `app.py: `The main Flask application script.
 `template:` Folder containing the `HTML` template for the home page.
+
+## Part III Create route for prediction, html for end users.
+
+1. Predict Route: rendering the value predicted to the brownser, after receiving variables entered by user.
+2. Work on html for better visualization and creating fields for my variables.
+
+![alt text](image-2.png)
+
+## Part III Deployment
+
+s
