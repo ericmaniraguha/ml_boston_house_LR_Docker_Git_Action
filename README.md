@@ -91,3 +91,43 @@ pip install scikit-learn pandas matplotlib seaborn
 ```
 conda create -n venv python=3.7 -ycon
 ```
+
+## Test the app.py Using Postman for Prediction
+
+#### API Endpoint:
+
+#### IP Address: http://127.0.0.1:5000/predict_api
+
+```
+JSON Request Body:
+
+`{
+    "data": {
+        "crim": 0.00632,
+        "zn": 18,
+        "indus": 2.31,
+        "chas": 0,
+        "nox": 0.538,
+        "rm": 6.575,
+        "age": 65.2,
+        "dis": 4.09,
+        "rad": 1,
+        "tax": 296,
+        "ptratio": 15.3,
+        "b": 396.9,
+        "lstat": 4.98
+    }
+}`
+```
+
+`Running my app.py inside vs code`
+![alt text](image-1.png)
+`Running the model in Postman application`
+![alt text](image.png)
+
+#### Additional Information:
+
+#### This repository contains:
+
+`app.py: `The main Flask application script.
+`template:` Folder containing the `HTML` template for the home page.
