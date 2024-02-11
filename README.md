@@ -49,7 +49,7 @@ The analysis of the Boston Housing Dataset provides insights into the factors af
 - [UCI Machine Learning Repository: Boston Housing Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/)
 - [scikit-learn Documentation](https://scikit-learn.org/stable/documentation.html)
 
-## Part II
+## Part II Create API
 
 ## Requirements
 
@@ -131,3 +131,22 @@ JSON Request Body:
 
 `app.py: `The main Flask application script.
 `template:` Folder containing the `HTML` template for the home page.
+
+## Part III Create route for prediction, html for end users.
+
+1. Predict Route: rendering the value predicted to the brownser, after receiving variables entered by user.
+2. Work on html for better visualization and creating fields for my variables.
+
+![alt text](image-2.png)
+
+## Part III Deployment to the cloud
+
+1. Use heroku platform
+2. steps: Create a procfile -- indicate that we are communicating to heroku
+
+A Procfile is a configuration file used by `Heroku`, a `platform-as-a-service (PaaS)` provider, to specify the commands that are executed by the app's `dynos` (containers) on the platform.
+
+`web: gunicorn app:app
+`
+This command tells Gunicorn to start the application defined in the `app.py` file (which contains the Flask app instance named app). Gunicorn will then serve the Flask application.
+Here, `web` is the process type and `gunicorn app:app` is the command to start the Gunicorn server for the Flask application.
