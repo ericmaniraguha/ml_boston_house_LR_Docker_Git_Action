@@ -144,9 +144,11 @@ JSON Request Body:
 1. Use heroku platform
 2. steps: Create a procfile -- indicate that we are communicating to heroku
 
-A Procfile is a configuration file used by `Heroku`, a `platform-as-a-service (PaaS)` provider, to specify the commands that are executed by the app's `dynos` (containers) on the platform.
+A Procfile is a configuration file used by `Heroku or render`, a `platform-as-a-service (PaaS)` provider, to specify the commands that are executed by the app's `dynos` (containers) on the platform.
 
 `web: gunicorn app:app
 `
 This command tells Gunicorn to start the application defined in the `app.py` file (which contains the Flask app instance named app). Gunicorn will then serve the Flask application.
 Here, `web` is the process type and `gunicorn app:app` is the command to start the Gunicorn server for the Flask application.
+
+Deployed version to Render: [Boston House Prediction](https://bostonhouseprediction-hyo3.onrender.com/)
